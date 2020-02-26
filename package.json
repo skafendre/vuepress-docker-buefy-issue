@@ -1,0 +1,19 @@
+{
+  "name": "vuepress-pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "cd test && vuepress dev --debug",
+    "build": "cd test && vuepress build --debug"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buefy": "^0.8.6",
+    "vuepress": "^1.2.0"
+  }
+}
